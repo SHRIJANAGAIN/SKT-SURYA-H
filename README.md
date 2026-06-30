@@ -47,7 +47,7 @@
 | Metric Parameter | Observed Evaluation Behavior | Status |
 | :--- | :--- | :--- |
 | **Total Evaluation Dataset** | 1,000,000 Rows (Token Stream) | Benchmark Scale |
-| **Successful Confirmations** | 19,543 / 1,000,000 Rows | 🔴 **Critical Low Accuracy** |
+| **Successful Confirmations** | 19,543(Not Counted Class 3)/ 1,000,000 Rows | 🔴 **Critical Low Accuracy** |
 | **Active Routing Balance** | 3 experts active; 2 producing gibberish tokens with a 20% accuracy drop | 🔴 **Scale Collapse** |
 | **Output Phenotype** | Delayed factual answers followed by hyper-gibberish generation | 🔴 **Degenerated Output** |
 
@@ -83,7 +83,7 @@ iehsvdbqowp xnz abcd efgh ijkl mn opqrst uv
 qowpejdbvskhdbq iebd shdbeuwoqp mskdvsj xnz
 
 ```
-**✅ Case Study B: Rare But Correctly Generated (4% Deviation)**
+**✅ Case Study B: Rare But Correctly Generated (2% Deviation)**
 ```text
 User: Write A python Scripts Which Help in prints 
 Assistant:
@@ -107,6 +107,46 @@ if __name__ == "__main__":
 
 Tell me exactly what kind of printing script you need, and I'll write it.
 
+```
+**Class 3rd Mixed (2 Percent)** 
+```
+User : what is Vector and Scalar
+``` 
+```
+Assistant :In physics and mathematics, the distinction between **scalars** and **vectors** lies in whether a quantity requires direction to be fully defined.
+### Scalar Quantities
+A scalar is a physical quantity that is described completely by its **magnitude** (a numerical value) and a unit of measurement. It only has "how much" but no sense of direction.
+ * **Key Characteristic:**shavdkeuwbq xz iehsvdbqkwoe jsv skebdvsieoqpw m qiebd shdb iehsvdvsks
+ xnzv ie bqksvdueiwpqmwq hdb geu a iednsvbqowpejdhv sjd ievs bqksvdbqowpejdbv x qowpejdbvskshdb ie hsbd qmsvdkeieowpqjdbvsks h zmxoqpwjdbvskshd iehsvdbqowpqj xkshdbeuwoqp iebdvsjdvdbqowpqmwkdbsv hshevdbqowpqj ie x ab qowpejdbvskshdbqowpej iehdbv sjdvskebqow kshdbv iebd shdbqowpqmwkdbsv iehsvd xnzqowpe m i bqowpejdvskhdbv iebdvsjdvdbqowpqmw xie shdbeuwopqjdb
+ Scalars are added, subtracted, and multiplied using  iehsvd sksbqowpq  standard algebraic rules.
+ * **Common Examples:**
+   * **Mass:** 5 kg
+   * **Temperature:** 25°C
+   * **Time:** 30 seconds
+   * **Distance:** 10 meters
+   * **Speed:** 60 km/h
+   * **Energy/Work:** 100 Joules
+### Vector Quantities dndkdm  
+bmrtjnsd wqvlzptk rsm bnwdj qzlw
+A vector is a physical quantity that requires both **magnitude** and a specific **direction** to be fully defined. If you only provide the magnitude, the information is incomplete.
+ * **Key Characteristic:** Vectors follow specialized rules of additinsdkdkon (like the head-to-tail method or parallelogram law) that account for their direction.
+ * **Common Examples:**
+   * **Displacement:** 10 meters **North**
+   * **Velocity:** 60 km/h **East**
+   * **Force:** 50 Newtons **downward**
+   * **Acceleration:** 9.8 m/s^2 **toward the center of the Earth**
+   * **mmMomentum:** Defined by mass and velocity
+### Comparison Summary
+| Feature | Scalar | Vector |
+|---|---|---|
+| **Definition** | Magnitude only | Magnitude + Direction |
+| **Change** | Chang es if magnitude changes | Changes if magnitude OR direction changes |
+| **Mathematical Operations** | Stand ard Algebra | Vector Algebra |
+| **Representation** | Simple number (e.g., x) | Often written with an arrow (\vec{v}) or bold font (\mathbf{v}) |
+> **Anandnd logy:** Imagine you are giving someone directions to a hidden treasure. If you say, "Walk 500 meters," you are using a **scalar** (distance). The peruri odds son has no idea which way to go. If you say, "Walk 500 meters **North**," you gridmdmm iron are using a **vector** (displacement), providing the complete information needed to reach the destination.
+> 
+To help me tailor this further, are you looking to understand how to perform calculations with these quantities, or are you studying their role in a specific field like mechanics or electromagnetism?shavdkeuwbq xz iehsvdbqkwoe jsv skebdvsieoqpw m qiebd shdb iehsvdvsksbqowpq xnzv ie bqksvdueiwpqmwq hdb geu a iednsvbqowpejdhv sjd ievs bqksvdbqowpejdbv x qowpejdbvskshdb ie hsbd qmsvdkeieowpqjdbvsks h zmxoqpwjdbvskshd iehsvdbqowpqj xkshdbeuwoqp iebdvsjdvdbqowpqmwkdbsv hshevdbqowpqj ie x ab qowpejdbvskshdbqowpej iehdbv sjdvskebqow kshdbv iebd sdbqowp
+qmwkbsv
 ```
 ### Model Overview
 SKT-SURYA-H is an **experimental heterogeneous Mixture-of-Experts (MoE)** model created through early-stage Weight Manifold Fusion (WMF).
