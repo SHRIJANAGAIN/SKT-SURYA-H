@@ -168,5 +168,11 @@ The 3-expert merged version works continuously but:
 <div align="center">
 <p><strong>Developed with ❤️ in Sidhi, Madhya Pradesh, India</strong></p>
 </div>
+
+> [!NOTE]
+> **A Word of Gratitude** > Thank you to the open-source community, researchers, and creators of the underlying base architectures whose open weights make this cutting-edge R&D possible. We fail forward, we adapt, and we build.
+
+
+
 ```
 
